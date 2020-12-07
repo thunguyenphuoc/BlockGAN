@@ -39,7 +39,7 @@ batch_size:
 max_epochs:
 			Number of epochs to train. Defaults is 50.
 epoch_step:
-			Number of epochs to train before starting to decrease the learning 			   rate. Default is 25.
+			Number of epochs to train before starting to decrease the learning rate. Default is 25.
 z_dim:
 			Dimension of the noise vector. Defaults is 90.
 z_dim2:
