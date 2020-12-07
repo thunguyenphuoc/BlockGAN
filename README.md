@@ -51,9 +51,9 @@ g_eta:
 reduce_eta:
 			Reduce learning rate during training.Default is False
 D_update:
-			Number of updates for the Discriminator for every training 			        step.Default is 1.
+			Number of updates for the Discriminator for every training step.Default is 1.
 G_update:
-			Number of updates for the Generator for every training 			               step.Default is 2.
+			Number of updates for the Generator for every training step.Default is 2.
 beta1:
 			Beta 1 for the Adam optimiser. Default is 0.5
 beta2:
@@ -78,10 +78,8 @@ add_D_noise:
 			Add noise to the input of the discriminator. Default is "false".
 DStyle_lambda:
 			Lambda for the style discriminator loss. Default is 1.0
-lambda_latent:
-			Lambda for the identity regulariser.Useful for training images at 			  128.Default is 0.0.
 ele_low:
-    		Default is 70.
+    		        Default is 70.
 ele_high:
 			Default is 110.
 azi_low:
